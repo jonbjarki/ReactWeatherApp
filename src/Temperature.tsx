@@ -68,7 +68,7 @@ export default class Temperature extends React.Component <{}, TemperatureObject>
 
   // Takes in JSON Response from API call and updates the temperature info
   setTemperature(jsonRes: any): void {
-    console.log(jsonRes)
+    // console.log(jsonRes)
     this.setState({
         cityName: jsonRes.name,
         imgSrc: `https://openweathermap.org/img/wn/${jsonRes.weather[0].icon}@2x.png`,

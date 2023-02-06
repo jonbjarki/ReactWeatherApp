@@ -4,6 +4,7 @@
   width: 100vw;
 }
 #temperatureContainer {
+  text-align: center;
   display: table-cell;
   vertical-align: middle;
   min-width: 350px;

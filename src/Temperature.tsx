@@ -26,13 +26,13 @@ export default class Temperature extends React.Component <{}, TemperatureObject>
 
   render() {
     let content: JSX.Element = (
-      <div>Loading...</div>
+      <div id="temperatureContainer">Loading...</div>
     );
     if (this.state.temp !== null) {
       content = (
         <div id="temperatureContainer">
         <h1 id="cityName">{this.state.cityName}</h1>
-        <img src={this.state.imgSrc} alt="Image for weather illustration" id="weatherImg" />
+        <img src={this.state.imgSrc} alt="Image describing the weather" id="weatherImg" />
         <p id="temperature">{Math.round(this.state.temp)}°C</p>
         <p id="feelsLike">Feels Like {Math.round(this.state.feelsLike)}°C</p>
       </div>

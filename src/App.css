@@ -1,3 +1,22 @@
+@media (max-width: 600px) {
+  #cityName {
+    font-size: 3.5rem !important;
+  }
+  #temperature {
+    font-size: 3rem;
+  }
+  #weatherImg {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  #feelsLike {
+    font-size: 1.5rem !important;
+  }
+  #description {
+    font-size: 1.5rem !important;
+  }
+}
+
 #App {
   display: table;
   height: 100vh;
@@ -13,25 +32,29 @@
   padding: 2rem;
   text-align: center;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-#App > #temperatureContainer > #weatherImg {
+#weatherImg {
   width: 12rem;
   height: 12rem;
 }
 
-#App > #temperatureContainer > #temperature {
+#temperature {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#cityName {
   font-size: 4rem;
+  margin: 0; 
+}
+
+#feelsLike {
+  font-size: 2rem;
   margin: 0;
 }
 
-#App > #temperatureContainer > #cityName {
-  margin: 0;
-}
-
-@media (max-width: 500px) {
-  #App {
-    margin: auto auto;
-  }
+#description {
+  margin-top: 0;
 }

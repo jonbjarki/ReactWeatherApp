@@ -5,4 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/ReactWeatherApp/',
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        manifest: './public/manifest.json'
+      }
+    }
+  }
 })

@@ -3,20 +3,20 @@
     "name": "Weather: What are the conditions like",
     "icons": [
       {
-        "src": "/public/icons-192.png",
+        "src": "icons-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/public/icons-512.png",
+        "src": "icons-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "id": "/ReactWeatherApp/?source=pwa",
+    "start_url": "/ReactWeatherApp/?source=pwa",
     "background_color": "#3367D6",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/ReactWeatherApp/",
     "description": "Current Weather Condition"
   }
